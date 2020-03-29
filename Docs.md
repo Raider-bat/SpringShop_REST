@@ -22,8 +22,8 @@ ___
 >Content-type: JSON
 
 Тело запроса состоит из следующих параметров:
-1. username - min: 3 | max: 20
-2. password - min: 6 | max: 60
+1. username - type-String | min: 3 | max: 20
+2. password - type-String | min: 6 | max: 60
 
 ### Пример:
 

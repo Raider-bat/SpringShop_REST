@@ -50,6 +50,7 @@ URI: http://localhost:8081/api/v1/auth/login <br><br>
 2. token - сгенерированный токен сервером для пользователя
 
 <a name="userList"></a>
+___
 ### Список пользователей
 
 >URN: /api/v1/admin/users <br>
@@ -111,6 +112,7 @@ Object:{
 ```
 
 <a name="addUser"></a>
+___
 ### Добавление пользователя
 
 >URN: /api/v1/admin/users/create <br>
@@ -164,6 +166,7 @@ OR
 status: String
 message: String
 ```
+___
 <a name="updateUser"></a>
 ### Обновление пользователя
 
@@ -219,7 +222,6 @@ OR
 ```
 ___
 <a name="deleteUser"></a>
-
 ### Удаление пользователя 
 
 >URN: /api/v1/admin/users/{**id**} <br>
@@ -351,6 +353,7 @@ URI: http://localhost:8081/api/v1/admin/products/add
         },
 
         "description": "Тип матрицы: VA / Диагональ экрана, дюйм: 31.5 / Соотношение сторон: 16:9 /
+                        
                         Максимальное разрешение: 3840 x 2160 Ultra HD 4K /
                         Частота при максимальном разрешении: 60 Гц / Яркость: 250 кд/м2 /
                         Контрастность: 2500:1 / Время отклика: 4 мс / Интерфейс подключения: HDMI;

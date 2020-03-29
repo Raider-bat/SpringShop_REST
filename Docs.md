@@ -1,20 +1,21 @@
 # Документация для REST SpringShop 
 
-* #### Управление пользователями
+* ### Управление пользователями
 * [Авторизация](#auth)
 * [Список пользователей](#userList)
 * [Добавление пользователя](#addUser)
 * [Обновление пользователя](#updateUser)
 * [Удаление пользователя](#deleteUser)
 ***
-* #### Управление товарами
+* ### Управление товарами
 * [Приостановление продаж](#stopSale)
 * [Добавление товара](#addProduct)
 * [Удаление товара](#deleteProduct)
 ***
-
-### Авторизация
+___
+## Управление пользователями
 <a name="auth"></a>
+### Авторизация
 >URN: /api/v1/auth/login <br>
 >Method: POST <br>
 >Permit: ALL <br>
@@ -236,7 +237,7 @@ Status: 404
 
 Пример:
 
-URI: http://localhost:8081/api/v1/admin/users/**2** <br>
+URI: http://localhost:8081/api/v1/admin/users/ **2** <br>
 
 
 >Status: 404
@@ -280,7 +281,7 @@ URI: http://localhost:8081/api/v1/admin/products/saleControl?pause=YES
 <br>
 >Status: 400
 
-URI: http://localhost:8081/api/v1/admin/products/saleControl?pause=**erberb**
+URI: http://localhost:8081/api/v1/admin/products/saleControl?pause= **erberb**
 
 Тело ответа:
 ```json
@@ -398,7 +399,7 @@ ___
 
 >Status: 200
 
-URI: http://localhost:8081/api/v1/admin/products/**76**
+URI: http://localhost:8081/api/v1/admin/products/ **76**
 
 <br>
 
